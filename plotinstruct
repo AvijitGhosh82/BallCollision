@@ -1,0 +1,11 @@
+set terminal jpeg
+set output 'plot1.jpg'
+plot 'Ball_1.dat' u 1:2 with lines lt rgb 108637888 title 'Ball 1'
+set output 'plot2.jpg'
+plot 'Ball_2.dat' u 1:2 with lines lt rgb 68686032 title 'Ball 2'
+set output 'plot3.jpg'
+plot 'Ball_3.dat' u 1:2 with lines lt rgb 220405794 title 'Ball 3'
+set output 'plot4.jpg'
+plot 'Ball_4.dat' u 1:2 with lines lt rgb 50063683 title 'Ball 4'
+set output 'plot5.jpg'
+plot 'Ball_5.dat' u 1:2 with lines lt rgb 222295272 title 'Ball 5'
